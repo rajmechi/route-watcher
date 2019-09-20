@@ -17,6 +17,8 @@ documentation is here https://github.com/operator-framework/operator-sdk/blob/ma
 
 to test locally
 
+when testing locally replace role to absolute path - https://github.com/rajmechi/route-watcher/blob/master/watches.yaml#L5
+
 operator-sdk up local
 
 
