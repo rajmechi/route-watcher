@@ -1,2 +1,10 @@
----
-# tasks file for route
+
+
+- debug: msg="namespace is {{ meta.namespace }} and name of the route is {{ meta.name }}"
+
+#- name: Fetch a specific deployment by name
+#  set_fact:
+#    deployments: "{{ lookup('k8s', kind='Route', namespace=meta.namespace , resource_name=meta.name) }}"
+
+
+#- debug: var=deployments
