@@ -1,0 +1,7 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: example-route
+spec:
+  # Add fields here
+  size: 3

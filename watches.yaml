@@ -1,0 +1,5 @@
+---
+- version: v1
+  group: route.openshift.io
+  kind: Route
+  role: /opt/ansible/roles/route
